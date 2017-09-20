@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SHELL=/bin/sh
+PATH=/sbin:/usr/sbin:/usr/bin:/bin
+
+if [ -e "/root/scripts/" ]
+then
+echo " o diretorio existe"
+else
+echo " o diretorio não existe vamos criar o diretorio"
+mkdir /root/scripts/
+fi
+exit
